@@ -1794,8 +1794,8 @@ ul {
   transition: all 0.3s ease 0s;
 }
 #rs-slider .slide-content .sl-get-started-btn:hover {
-  background-color: #e41f05;
-  border-color: #e41f05;
+  background-color: #000b46;
+  border-color: #000b46;
   color: rgba(255, 255, 255, 0.8);
 }
 #rs-slider .owl-nav {
