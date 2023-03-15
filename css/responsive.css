@@ -127,9 +127,6 @@
     .rs-search-courses{
         margin-top: 0;
     }
-    .rs-search-courses{
-        background: #212121;
-    }
     .rs-search-courses:after{
         display: none;
     }

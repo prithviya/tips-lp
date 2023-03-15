@@ -1781,7 +1781,7 @@ ul {
   border-color: #e41f05;
   color: rgba(255, 255, 255, 0.8);
 }
-#rs-slider .slide-content .sl-get-started-btn {
+#rs-slider .sl-get-started-btn {
   background-color: #cf8818;
   border: 2px solid #cf8818;
   display: inline-block;
@@ -1845,39 +1845,7 @@ ul {
   background: -webkit-gradient(linear, right top, right bottom, color-stop(0%, rgba(0, 0, 0, 0.55)), color-stop(50%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0.3)));
   opacity: 0.95;
 }
-.home5 span.red-color {
-  color: #e84b3a;
-}
-.home5 span.orange-color {
-  color: #fc7f0c;
-}
-.home5 #rs-slider {
-  position: relative;
-}
-.home5 #rs-slider .slide-content .slider-title {
-  color: #92278f;
-}
-.home5 #rs-slider .slide-content .slider-title,
-.home5 #rs-slider .slide-content .slider-desc,
-.home5 #rs-slider .slide-content .sl-get-started-btn {
-  position: relative;
-  z-index: 11;
-}
-.home5 #rs-slider .slide-content .sl-get-started-btn {
-  border: none;
-  background: #92278f;
-  border-radius: 30px;
-  font-weight: 700;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  font-size: 18px;
-}
-.home5 #rs-slider .slide-content .sl-get-started-btn:hover {
-  background: #550b53;
-}
-.home5 #rs-slider .owl-dots {
-  display: none !important;
-}
+
 .rs-banner-section {
   position: relative;
   overflow: hidden;
@@ -2003,7 +1971,7 @@ ul {
   -webkit-animation: swing-anim2 2s alternate-reverse infinite;
 }
 .rs-banner-section3 {
-  background: url(images/bg/home8-banner-bg.jpg);
+  background: url(images/banner/1.png);
   background-position: center top;
   background-repeat: no-repeat;
   padding-top: 180px;
@@ -2022,7 +1990,6 @@ ul {
   line-height: 70px;
   font-weight: 600;
   color: #ffffff;
-  text-transform: uppercase;
 }
 .rs-banner-section3 .countdown-part .counter-wrap {
   max-width: 550px;
@@ -2070,12 +2037,12 @@ ul {
   margin-bottom: 50px;
 }
 .rs-banner-section3 .register-form .form-title .title {
-  font-weight: 400;
+  font-weight: 500;
   color: #fff;
   position: relative;
   z-index: 10;
   line-height: 1.4;
-  font-size: 22px;
+  font-size: 20px;
 }
 .rs-banner-section3 .register-form .form-title:after {
   position: absolute;
@@ -2092,10 +2059,10 @@ ul {
 }
 .rs-banner-section3 .register-form .form-group .from-control {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 3px;
-  height: 50px;
-  line-height: 50px;
+  height: 40px;
+  line-height: 40px;
   padding-top: 0;
   padding-bottom: 0;
   font-size: 15px;
@@ -2119,14 +2086,14 @@ ul {
   transition: 0.4s;
   font-weight: 600;
 }
-.rs-banner-section3 .register-form .form-group input[type=submit]:hover {
+.register-form .form-group input[type=submit]:hover {
   color: #ffffff;
-  background: #e41f05;
+  background: #000b46;
 }
-.rs-banner-section3 .register-form .form-group .select-option {
+.register-form .form-group .select-option {
   position: relative;
 }
-.rs-banner-section3 .register-form .form-group .select-option select {
+.register-form .form-group .select-option select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -2136,7 +2103,7 @@ ul {
   z-index: 11;
   position: relative;
 }
-.rs-banner-section3 .register-form .form-group .select-option:after {
+.register-form .form-group .select-option:after {
   content: '\f107';
   font-family: FontAwesome;
   color: #b1b1b1;
@@ -3763,7 +3730,6 @@ ul {
   right: 0;
   margin: 0 auto;
   top: 0;
-  background-color: #212121;
   z-index: -1;
   display: block;
 }
@@ -3771,10 +3737,11 @@ ul {
 .rs-search-courses button,
 .rs-search-courses input {
   width: 100%;
-  height: 60px;
+  height: 40px;
   padding: 0 15px;
-  color: #777;
+  color: #212121;
   border: none;
+  margin-bottom: 10px;
 }
 .rs-search-courses ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
