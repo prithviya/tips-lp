@@ -1,6 +1,11 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Roboto+Condensed:400,500,600,700');
 
+*
+{
+  scroll-behavior: smooth;
+}
+
 [class*='rs-animation-'] {
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
@@ -1075,6 +1080,18 @@ ul {
   padding-left: 55px;
 }
 .rs-header .rs-header-top .header-contact .widget-text i {
+  position: absolute;
+  border-radius: 2px;
+  text-align: center;
+  left: 0;
+  line-height: 40px;
+  color: #cf8818;
+  font-size: 35px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  font-weight: 700;
+}
+.rs-header .rs-header-top .header-contact .widget-text img {
   position: absolute;
   border-radius: 2px;
   text-align: center;
